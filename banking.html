@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banking System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Event & Banking Management System</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Event Management</a></li>
+        <li><a href="banking.html" class="active">Banking System</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="section-container">
+    <h2>Banking System</h2>
+
+    <div class="card">
+      <h3>Account Information</h3>
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Account Number:</strong> 123456789</p>
+      <p><strong>Balance:</strong> $5,200.00</p>
+    </div>
+
+    <div class="card">
+      <h3>Recent Transactions</h3>
+      <table>
+        <tr><th>Date</th><th>Description</th><th>Amount</th><th>Balance</th></tr>
+        <tr><td>2025-07-30</td><td>Salary</td><td>+$3,000</td><td>$5,200</td></tr>
+        <tr><td>2025-07-28</td><td>Grocery</td><td>-$120.50</td><td>$2,200</td></tr>
+        <tr><td>2025-07-25</td><td>Electricity</td><td>-$80.00</td><td>$2,320.50</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3>Transfer Money</h3>
+      <form>
+        <label>To Account:</label>
+        <input type="text" required>
+        <label>Amount:</label>
+        <input type="number" min="1" required>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 Event & Banking Management System</p>
+  </footer>
+</body>
+</html>
