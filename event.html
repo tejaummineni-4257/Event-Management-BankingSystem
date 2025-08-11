@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Management</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { 
+            background-image: url('https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2'); 
+        }
+        .container {
+            max-width: 500px;
+            margin-top: 20px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <h1>Event & Banking Management System</h1>
+    <a href="event.html">Event Management</a>
+    <a href="banking.html">Banking System</a>
+    <a href="login.html">Logout</a>
+</div>
+
+<div class="container">
+    <h2>Upcoming Events</h2>
+    <ul id="eventList">
+        <li>🎵 Music Concert - 25th Aug 2025</li>
+        <li>💻 Tech Conference - 10th Sep 2025</li>
+        <li>🎨 Art Exhibition - 5th Oct 2025</li>
+    </ul>
+
+    <h2>Create New Event</h2>
+    <input type="text" id="eventName" placeholder="Event Name">
+    <input type="date" id="eventDate">
+    <textarea id="eventDescription" placeholder="Description"></textarea>
+    <button id="addEventBtn">Add Event</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
